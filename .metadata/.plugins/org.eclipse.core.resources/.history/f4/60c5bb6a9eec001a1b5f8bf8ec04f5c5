@@ -1,0 +1,13 @@
+
+public class Program {
+
+	public static void main(String[] args) {
+		Persona p = new Persona();
+		
+		p.setApellido("Cerizza");
+		p.setNombre("Mauricio");
+		
+		System.out.println(p.toString());
+	}
+
+}
